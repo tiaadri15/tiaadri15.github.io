@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body, h1, h2, p, label, input, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins';
+    background-image: linear-gradient(rgba(228, 184, 184, 0.9), rgba(228, 184, 184, 0.9)), url(asset/dots.jpg);
+    background-color: rgba(206, 159, 159, 0.9);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 145vh;
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.add-data {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.add-form-container {
+    padding: 20px;
+}
+
+.edit-data {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.edit-form-container {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    color: black;
+}
+
+hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="submit"]{
+    font-family: 'Poppins';
+}
+
+.textfield {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.add-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(218, 0, 102);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins';
+}
+
+.add-btn:hover {
+    background-color: rgb(218, 0, 102);
+}
+
+.edit-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(218, 0, 102);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins';
+}
+
+.edit-btn:hover {
+    background-color: rgb(218, 0, 102);
+}

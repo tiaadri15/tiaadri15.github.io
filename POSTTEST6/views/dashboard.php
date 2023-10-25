@@ -54,7 +54,7 @@
                 <div class="leading-btn">
                     <p><?php echo date ('l, d F Y');?></p>
                     <p><?php date_default_timezone_set('Asia/Makassar');
-                        echo date('h:i a')?></p>
+                        echo date('h:i: sa')?></p>
                     <a href="add.php"><button class="add-btn">Tambah</button></a>
                     <button class="history-btn" onclick="alert('TBA!')">Histori</button>
                 </div><br>

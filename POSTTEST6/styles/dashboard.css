@@ -271,6 +271,10 @@ hr {
     margin-bottom: 20px;
 }
 
+.leading-btn p{
+    text-align: left;
+}
+
 .add-btn, .history-btn {
     padding: 10px 20px;
     font-size: 16px;
